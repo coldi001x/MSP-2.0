@@ -1,0 +1,59 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "advanced-pharmacology.gl.joinmc.link",
+          "assigned_srv": "advanced-pharmacology.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "65768549-5abc-49e3-84ad-b867173cfdf0",
+          "ip_hostname": "18.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 1459,
+          "port_start": 1458,
+          "region": "global",
+          "static_ip4": "147.185.221.18",
+          "tunnel_ip": "2602:fbaf:0:1::12"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-06-30T02:14:15.919076Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "c0ba959c-2091-49ea-9f3a-090d57ffa550",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "86579e41-0fdd-4b5b-8cb3-46bd8f54f08a",
+          "agent_name": "from-key-f2d2",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  }
+}
